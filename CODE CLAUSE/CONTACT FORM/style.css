@@ -1,0 +1,102 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Set font size and color for the body */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: -webkit-radial-gradient(center, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background: -moz-radial-gradient(center, rgb(0, 0, 0) 0%, rgb(197, 189, 189) 100%);
+    background: radial-gradient(ellipse at center, rgb(154, 156, 153) 0%, rgb(0, 0, 0) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+/* Style for the container */
+.container {
+  max-width: 400px;
+  margin: 2px auto;
+  padding: 20px;
+  border: 4px solid rgb(6, 175, 3);
+  background-color: #fff;
+}
+
+/* Style for the header */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000;
+}
+
+/* Style for the form group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for the label */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+
+/* Style for the input and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #4a70df;
+  margin-top: 3px;
+}
+
+/* Style for the select input */
+select {
+  width: 100%;
+  padding: 8px;
+  border:2px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #4a70df;
+  margin-top: 3px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+message {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #4a70df;
+  margin-top: 3px;
+}
+
+/* Style for the reCAPTCHA block */
+.g-recaptcha {
+  margin-top: 5px;
+}

@@ -1,0 +1,190 @@
+* {
+	padding: 0;
+	margin: 0;
+  }
+  
+  body {
+	background: rgb(0, 0, 0);
+	background: -webkit-radial-gradient(center, rgb(0, 29, 249) 0%, rgb(245, 240, 240) 100%);
+	background: -moz-radial-gradient(center, rgb(1, 126, 244) 0%, rgb(25, 24, 24) 100%);
+	background: radial-gradient(ellipse at center, rgb(61, 148, 202) 0%, rgb(38, 36, 36) 100%);
+	font-family: sans-serif;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  h1 {
+	font-size: 1.5rem;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 20px;
+  }
+
+  h2{
+	font-size: 1.3rem;
+	color: rgb(0, 0, 0);
+	margin-bottom: 20px;
+  }
+  
+  button {
+	height: fit-content;
+	cursor: pointer;
+	color: #04202c;
+	background-color: #c9d1c8;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+  }
+  
+  .app {
+	width: 450px;
+	margin:5%;
+	padding: 60px;
+	color: white;
+	border: 5px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px rgb(255, 255, 255);
+  }
+  
+  .filters {
+	margin-bottom: 20px;
+	color: #000000;
+  }
+  
+  .filters label {
+	margin-right: 10px;
+  }
+  
+  .filters select {
+	padding: 5px;
+  }
+  
+  .input-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 0px 0px 10px 0px;
+  }
+  
+  .to-do-input input {
+	width: 350px;
+	font-family: inherit;
+	border: 3px solid black;
+	border-radius: 2px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 10px;
+	outline: none;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+	background-color: #ffffff;
+	color: #000000;
+  } 
+  
+  .to-do-input button {
+	color: #000000;
+	font-family: inherit;
+	border: 3px solid black;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: rgb(0, 179, 255);
+  }
+  
+  .to-do-list {
+	width: 94%;
+	background-color: #0f0e0e;
+	padding: 6px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+  }
+  
+  .to-do-list i {
+	color: #000000;
+	cursor: pointer;
+  }
+  
+  .to-do-list .fa-pen-to-square {
+	color: #000000;
+  }
+  
+  .to-do-list button {
+	padding: 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: inherit;
+	border: none;
+	background-color: #c9d1c8;
+	color: #04202c;
+  }
+  
+  .item {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	background: -webkit-radial-gradient(center, rgb(66, 22, 180) 0%, rgb(255, 0, 0) 100%);
+	border-radius: 5px;
+	width: 410px;
+	padding: 8px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .input-controller {
+	display: flex;
+	gap: 10px;
+  }
+  
+  .input-controller textarea {
+	width: 100%;
+	height: 50%;
+	padding: 2px;
+	outline: none;
+	border: 3px solid black;
+	resize: none;
+	line-height: 0.7;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	transition: all 0.30s ease-in-out;
+  }
+  
+  textarea:focus {
+	box-shadow: 0 0 5px white;
+  }
+  
+  .edit-controller {
+	display: flex;
+	gap: 5px;
+  }
+  
+  .update-controller {
+	display: none;
+  }
+  
+  @media(max-width: 768px) {
+	.app {
+	  width: 95%;
+	  text-align: center;
+	}
+  
+	.input-header {
+	  flex-direction: column;
+	  padding-bottom: 20px;
+	}
+  
+	.to-do-input {
+	  display: flex;
+	}
+  
+	.to-do-input input {
+	  width: 300px;
+	}
+  } 
+
+  
+  
