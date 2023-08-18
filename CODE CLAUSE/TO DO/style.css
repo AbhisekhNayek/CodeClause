@@ -4,15 +4,19 @@
   }
   
   body {
-	background: rgb(0, 0, 0);
-	background: -webkit-radial-gradient(center, rgb(0, 29, 249) 0%, rgb(245, 240, 240) 100%);
-	background: -moz-radial-gradient(center, rgb(1, 126, 244) 0%, rgb(25, 24, 24) 100%);
-	background: radial-gradient(ellipse at center, rgb(61, 148, 202) 0%, rgb(38, 36, 36) 100%);
+	background: linear-gradient(45deg, #ff0000, #00ff08, #ff6f00, #2600ff);
+    	background-size: 400% 400%;
+    	animation: gradientAnimation 20s ease infinite;
 	font-family: sans-serif;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  }
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
   
   h1 {
